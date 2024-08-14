@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeerMaker.Api", "BeerMaker.Api\BeerMaker.Api.csproj", "{E8130D8B-D58D-493D-8B58-C865FCAEA8AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{07E4936A-C253-44EB-B262-5C4F82F91238}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Domain", "02. Domain", "{9C36E77C-D6F9-43E6-8C45-A480F39E013E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Presentation", "01. Presentation", "{D32D6E37-B3E1-4FAF-96F0-966EA6A1949C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8130D8B-D58D-493D-8B58-C865FCAEA8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8130D8B-D58D-493D-8B58-C865FCAEA8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8130D8B-D58D-493D-8B58-C865FCAEA8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8130D8B-D58D-493D-8B58-C865FCAEA8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E4936A-C253-44EB-B262-5C4F82F91238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E4936A-C253-44EB-B262-5C4F82F91238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E4936A-C253-44EB-B262-5C4F82F91238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E4936A-C253-44EB-B262-5C4F82F91238}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8130D8B-D58D-493D-8B58-C865FCAEA8AD} = {D32D6E37-B3E1-4FAF-96F0-966EA6A1949C}
+		{07E4936A-C253-44EB-B262-5C4F82F91238} = {9C36E77C-D6F9-43E6-8C45-A480F39E013E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1595146-DB58-4C42-9234-A11317DF17D9}
+	EndGlobalSection
+EndGlobal
